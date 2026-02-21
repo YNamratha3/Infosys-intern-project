@@ -1,0 +1,30 @@
+{
+    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot",
+            "default": true
+        }
+    ],
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.server.launchMode": "Standard",
+    "spring-boot.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot",
+    "maven.executable.path": "${env:USERPROFILE}\\maven\\apache-maven-3.9.6\\bin\\mvn.cmd",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot"
+        }
+    ],
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "[java]": {
+        "editor.tabSize": 4
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/target": true
+    }
+}

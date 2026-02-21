@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "🌱 Run EcoBazaar Backend",
+      "request": "launch",
+      "mainClass": "com.ecobazaar.EcoBazaarApplication",
+      "projectName": "ecobazaar-backend",
+      "env": {
+        "JAVA_HOME": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.16.8-hotspot"
+      },
+      "args": "",
+      "vmArgs": "-Dspring.profiles.active=default"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "🌐 Debug React Frontend",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/infosys_ecobazaar_web-main/src",
+      "sourceMaps": true
+    }
+  ],
+  "compounds": [
+    {
+      "name": "🚀 Full Stack (Backend + Frontend)",
+      "configurations": [
+        "🌱 Run EcoBazaar Backend",
+        "🌐 Debug React Frontend"
+      ]
+    }
+  ]
+}

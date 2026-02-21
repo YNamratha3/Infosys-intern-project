@@ -1,0 +1,179 @@
+/* =====================================================
+                    GLOBAL STYLES
+===================================================== */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+
+/* =====================================================
+                        NAVBAR
+===================================================== */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0077b6;   /* 🌊 Ocean Blue */
+  padding: 12px 25px;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  max-width: 500px;
+  margin: 0 30px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  border: none;
+  background: #00b4d8;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: #023e8a;
+}
+
+.nav-links span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-links span:hover {
+  color: #90e0ef;
+}
+
+
+/* =====================================================
+                    HERO SECTION
+===================================================== */
+
+.hero {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #0077b6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* =====================================================
+                    CATEGORY SECTION
+===================================================== */
+
+.category-section {
+  padding: 30px 20px;
+  background: white;
+}
+
+.category-grid {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+.category-card {
+  min-width: 150px;
+  background: #f0f9ff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.category-card:hover {
+  background: #caf0f8;
+}
+
+
+/* =====================================================
+                    PRODUCT SECTION
+===================================================== */
+
+.product-section {
+  padding: 30px 20px;
+  background: white;
+  margin-top: 10px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.product-card {
+  min-width: 220px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-3px);
+}
+
+.product-card span {
+  color: #0077b6;
+  font-size: 13px;
+}
+
+.product-card button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background: #0077b6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background: #023e8a;
+}
+
+
+/* =====================================================
+                        FOOTER
+===================================================== */
+
+.footer {
+  background: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
